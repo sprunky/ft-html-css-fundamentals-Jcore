@@ -76,6 +76,8 @@ a {
 .middle li a {
     color: white;
     padding-left: 10px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .middle li a:hover {
