@@ -34,18 +34,19 @@ header {
 
 header ul {
     display: flex;
+    flex-wrap: wrap;
     margin: 0;
 }
 
 header ul li {
-    font-size: 17px;
+    font-size: 20px;
     display: flex;
     flex-wrap: wrap;
 }
 
 header ul li a {
     border-right: 1px solid #4ab75c;
-    padding: 15px;
+    padding: 15px 10px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -71,7 +72,7 @@ a {
 
 .middle li a {
     color: white;
-    padding-left: 10px;
+    padding: 1px 1px 1px 10px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -81,10 +82,10 @@ a {
 }
 
 .middle nav {
-    width: 250px;
     float: left;
-    padding-bottom: 200px;
-    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 33%;
 }
 
 .middle nav li {
@@ -96,12 +97,14 @@ a {
 
 .middle nav ul {
     padding-inline-start: 0;
+    margin-right: 10px;
+    width: 100%;
 }
 
 nav h1 {
     margin-top: 0;
     margin-bottom: 0;
-    display: inline-block;
+    display: block;
 }
 
 main p {
@@ -112,10 +115,9 @@ main p {
 article {
     display: flex;
 	flex-wrap: wrap;
-    padding-left: 10px;
+    padding: 0 10px 10px;
     margin-bottom: 10px;
     margin-top: 10px;
-	margin-left: 10px;
     background-color: white;
 }
 
@@ -129,13 +131,6 @@ article p {
     margin-top: 0;
 }
 
-div footer {
-    display: block;
-    background-color: #4ab75c;
-    color: white;
-    padding: 10px;
-}
-
 article h1, h2, p a {
     color: #4ab75c;
     display: inline-block;
@@ -143,5 +138,12 @@ article h1, h2, p a {
 
 article h2 {
     font-size: 18px;
+}
+
+div footer {
+	display: block;
+	background-color: #4ab75c;
+	color: white;
+	padding: 10px;
 }
 
